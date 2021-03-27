@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoBahasaActivity"
+    android:scrollbars="vertical"
+    android:background="@drawable/candi_low">
+
+    <LinearLayout
+        android:id="@+id/linear_info_bahasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/judul_info_bahasa"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/info_bahasa_p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_bahasa_p1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

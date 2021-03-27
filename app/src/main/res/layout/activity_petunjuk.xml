@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PetunjukActivity"
+    android:scrollbars="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/linear_petunjuk_aplikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul_petunjuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/judul_petunjuk"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/petunjuk_p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/petunjuk_p1"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_1"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_1_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_1_isi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_2"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_2_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_2_isi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_3"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_3_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_3_isi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_4"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_4_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_4_isi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_5"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/sub_petunjuk_5_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_petunjuk_5_isi"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

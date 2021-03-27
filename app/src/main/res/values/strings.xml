@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kamus Bahasa Jawa</string>
+    <string name="judul_petunjuk">Petunjuk Aplikasi</string>
+    <string name="petunjuk_p1">\t Aplikasi ini terdapa 5 menu utama. Menu tersebut adalah:</string>
+    <string name="sub_petunjuk_1">1. Menu Terjemahan</string>
+    <string name="sub_petunjuk_1_isi">Menu Terjemahan adalah menu yang berfungsi untuk menerjemahkan kata dari bahasa Indonesia ke bahasa Jawa</string>
+    <string name="sub_petunjuk_2">2. Menu Profile</string>
+    <string name="sub_petunjuk_2_isi">Menu Profile adalah menu yang berisikan tentang profile dari pembuat aplikasi kamus ini</string>
+    <string name="sub_petunjuk_3">3. Menu Info Bahasa</string>
+    <string name="sub_petunjuk_3_isi">Menu Info Bahasa adalah menu yang berisikan tentang pengertian dari bahasa Jawa</string>
+    <string name="sub_petunjuk_4">4. Menu Petunjuk</string>
+    <string name="sub_petunjuk_4_isi">Menu Petunjuk adalah menu yang menerangkan fungsi-fungsi dari menu yang terdapat dalam kamus ini</string>
+    <string name="sub_petunjuk_5">5. Menu Keluar</string>
+    <string name="sub_petunjuk_5_isi">Menu Keluar adalah menu yang digunakan untuk keluar dari aplikasi kamus bahasa Jawa ini</string>
+    <string name="judul_info_bahasa">Info Bahasa Jawa</string>
+    <string name="info_bahasa_p1">\t Bahasa Jawa adalah bahasa yang digunakan penduduk bersuku bangsa Jawa di Jawa Tengah, Yogyakarta, dan Jawa Timur. Selain itu, bahasa Jawa juga digunakan oleh penduduk yang tinggal di beberapa daerah lain seperti Banten (terutama Serang, Cilegon, dan Tangerang) serta Jawa Barat (terutama kawasan pantai utara yang meliputi Indramayu, Karawang, dan Subang.</string>
+    <string name="judul_profile">Profile Pembuat Aplikasi</string>
+    <string name="nama_profile">Deni Supriyatna</string>
+    <string name="npm_profile">43A87006150265</string>
+    <string name="jurusan_profile">Teknik Informatika</string>
+    <string name="error_belum_ada">Kata yang anda cari belum ada di database kami.</string>
+</resources>

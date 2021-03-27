@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deni.kamusbahasajawa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DetailJawaIndoActivity"></activity>
+
+        <provider
+            android:name="com.activeandroid.content.ContentProvider"
+            android:authorities="ace.deni.kamusbahasajawa"
+            android:enabled="true"
+            android:exported="false" />
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="KamusIndoJawa" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="ace.deni.kamusbahasajawa.model.IndoJawa" />
+
+        <activity android:name=".ListActivity" />
+        <activity
+            android:name=".PetunjukActivity"
+            android:parentActivityName=".MenuUtamaActivity" />
+        <activity
+            android:name=".InfoBahasaActivity"
+            android:parentActivityName=".MenuUtamaActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".MenuUtamaActivity" />
+        <activity android:name=".MenuUtamaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TerjemahanActivity" />
+    </application>
+
+</manifest>
